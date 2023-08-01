@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+header {
+    margin: auto;
+    padding: 20px;
+    width: 100vw;
+    background-color: #EAC926;
+}
+
+.contenedor-header {
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 50%;
+}
+
+.buscador {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.buscador-input {
+    padding: 7px 35px 7px 7px;
+    width: 100%;
+    height: 40px;
+    border: solid 1px #ebebeb;
+    border-radius: 5px;
+    display: block;
+    font-size: 1em;
+}
+
+.buscador-boton {
+    height: 60%;
+    border: none;
+    border-left: solid 1px #ebebeb;
+    right: 2px;
+    position: absolute;
+    color: #666;
+    background-color: white;
+    cursor: pointer;
+}
+
+.frase {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.navegacion {
+    display: none;
+}
+
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.navegacion a {
+    padding: 5px 0;
+    color: #222222;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.burger-menu {
+    margin: auto;
+    padding: 10px 0;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 8px;
+    display: block;
+    color: white;
+    background-color: #1259c3;
+    font-size: 18px;
+    text-align: center;
+}
+
+main {
+    background-color: #ebebeb;
+}
+
+.banner {
+    margin: auto;
+    width: 100vw;
+    text-align: center;
+}
+
+.contenedor-main {
+    margin: auto;
+    margin-top: -5px;
+    padding: 15px;
+    width: 90vw;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulares {
+    width: 95%;
+    color: #666;
+    font-size: 24px;
+}
+
+.articulo {
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 100%;
+    border: solid 1px #ebebeb;
+    display: block;
+    transition: all 450ms;
+    background-color: white;
+}
+
+.imagen-articulo {
+    margin: auto;
+    width: 100%;
+    border-bottom: solid 1px #ebebeb;
+}
+
+.descripciones-articulo {
+    padding: 0 15px 0 15px;
+    position: relative;
+}
+
+.fa-truck {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    top: -53px;
+    right: 20px;
+    display: block;
+    position: absolute;
+    transition: all 450ms;
+    color: #39b54a;
+    background-color: white;
+    font-size: 16px;
+}
+
+.precios {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.descuentos {
+    margin-left: 10%;
+    color: #39b54a;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.descripcion {
+    margin-bottom: 15px;
+    display: none;
+    transition: all 450ms;
+    color: #666;
+    font-size: 16px
+}
+
+footer {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+}
+
+.secciones-footer {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.secciones-footer h4 {
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+.fa-credit-card,
+.fa-gift,
+.fa-user-shield {
+    margin-top: 32px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all 450ms;
+    color: #1259c3;
+    font-size: 2em;
+    text-align: center;
+}
+
+.cuerpos-de-texto {
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+}
+
+.copyright {
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.contenedor-formulario {
+    margin-top: -5px;
+    padding: 20px 15px;
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+.formulario {
+    margin-left: 10%;
+    margin-bottom: 45px;
+    text-align: left;
+}
+
+.formulario h3 {
+    margin: -22.5px 0 22.5px;
+    display: block;
+    text-align: left;
+}
+
+.barra-formulario {
+    padding: 8px;
+    width: 88.5%;
+    border: solid 1px #ebebeb;
+    border-radius: 5px;
+}
+
+.boton-formulario {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    transition: all 450ms;
+    color: white;
+    background-color: #1259c3;
+    font-size: 20px;
+}
+
+.boton-formulario:hover {
+    background-color: #0022AA;
+}
+
+.radio {
+    margin-left: 25px;
+}
+
+.radio input {
+    margin-right: 25px;
+}
+
+.checkbox {
+    margin-left: 25px
+}
+
+.checkbox input {
+    margin: 0 25px 40px 0;
+}
+
+@media(min-width: 361px) {
+    .contenedor-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .buscador {
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    .buscador-input {
+        font-size: 1em;
+    }
+
+    .frase {
+        width: 30%;
+        font-size: 11px;
+        text-align: right;
+    }
+
+    .navegacion {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navegacion ul {
+        display: flex;
+    }
+
+    .navegacion li {
+        margin: 0 5px;
+        font-size: 11px;
+    }
+
+    .navegacion a {
+        font-size: 11px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .articulo {
+        width: 45%;
+    }
+
+    .articulo:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .articulo:hover .descripcion {
+        display: block;
+    }
+
+    .articulo:hover .fa-truck {
+        transform: rotateZ(-90deg);
+    }
+}
+
+@media(min-width: 769px) {
+
+    .contenedor-header,
+    .navegacion {
+        margin: auto;
+        max-width: 1200px
+    }
+
+    .contenedor-header {
+        align-items: center;
+    }
+
+    .logo {
+        width: 250px;
+    }
+
+    .frase {
+        font-size: 18px;
+    }
+
+    .navegacion {
+        margin-top: 30px;
+    }
+
+    .navegacion li {
+        margin: 0 10px;
+        font-size: 19px;
+    }
+
+    .navegacion a {
+        font-size: 19px;
+    }
+
+    .articulo {
+        width: 20%;
+    }
+
+    .contenedor-footer {
+        display: flex;
+    }
+
+    .fa-credit-card:hover,
+    .fa-gift:hover,
+    .fa-user-shield:hover {
+        color: #0022AA;
+    }
+}
